@@ -19,7 +19,7 @@ input.addEventListener('keyup', function(e){
         wordCount = wordCount + 1;
         }
     
-      else if(textInput.charAt(i) == '.'){
+      else if(textInput.charAt(i) == '.' || textInput.charAt(i) == '!' || textInput.charAt(i) == '?'){
         sentenceCount = sentenceCount + 1;
         }
 
